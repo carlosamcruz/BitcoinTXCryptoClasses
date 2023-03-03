@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bitcoin TX Crypto Lib</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <h1>Basic Crypto Lib for Bitcoin TX Building</h1>
+
+    <!-- output list -->
+    <ul class="item-list">
+      
+    </ul>
+  </div>
+
+  <footer>
+    <form class="new-item-form">
+      <div class="field">
+        <label>Action:</label>
+        <select id="type">
+          <option value="invoice">Send</option>
+          <option value="payment">Read</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Receiver Address:</label>
+        <input type="text" id="tofrom">
+      </div>   
+      <div class="field">
+        <label>PVT Key:</label>
+        <input type="text" id="details">
+      </div>
+      <div class="field">
+        <label>Amount (satoshis):</label>
+        <input type="number" id="amount">
+      </div>
+      <button>Go</button>
+    </form>
+
+    <a href="https://thecircuitcracker.blogspot.com/">The Circuit Cracker</a>
+  </footer>
+
+  <script src='TonelliShanks.js'></script>
+  <script src='ecc.js'></script>
+  <script src='Keygen.js'></script>
+  <script src='SHA256G.js'></script>
+  <script src='Ripemd160.js'></script>
+  <script src='EcdsaSecretus.js'></script>
+  <script src='test-EcdsaSecretus.js'></script>
+
+
+  <!--
+  <script src='test-EcdsaSecretus.js'></script>
+  <script src='test-keygen.js'></script>
+  <script src='test-Ripemd160.js'></script>
+  <script src='test-SHA256G.js'></script>
+  <script src='test-ecc.js'></script>
+-->
+</body>
+</html>
